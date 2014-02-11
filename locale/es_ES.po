@@ -1,0 +1,161 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:helpdesk,opportunities:"
+msgid "Opportunities"
+msgstr "Oportunidades"
+
+msgctxt "field:sale.opportunity.helpdesk,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:sale.opportunity.helpdesk,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:sale.opportunity.helpdesk,helpdesk:"
+msgid "Helpdesk"
+msgstr "Soporte"
+
+msgctxt "field:sale.opportunity.helpdesk,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.opportunity.helpdesk,opportunity:"
+msgid "Opportunity"
+msgstr "Oportunidad"
+
+msgctxt "field:sale.opportunity.helpdesk,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:sale.opportunity.helpdesk,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:sale.opportunity.helpdesk,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:sale.sale.helpdesk,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:sale.sale.helpdesk,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:sale.sale.helpdesk,helpdesk:"
+msgid "Helpdesk"
+msgstr "Soporte"
+
+msgctxt "field:sale.sale.helpdesk,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.sale.helpdesk,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:sale.sale.helpdesk,sale:"
+msgid "Sale"
+msgstr "Venta"
+
+msgctxt "field:sale.sale.helpdesk,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:sale.sale.helpdesk,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "model:ir.action,name:act_alls_sale_opportunity_helpdesk"
+msgid "All Helpdesks"
+msgstr "Todos los soportes"
+
+msgctxt "model:ir.action,name:act_sale_opportunity_helpdesk"
+msgid "Helpdesks"
+msgstr "Soporte"
+
+msgctxt "model:ir.action,name:act_sale_opportunity_helpdesk_form2"
+msgid "Sale Opportunity Helpdesks"
+msgstr "Soporte de oportunidades ventas"
+
+msgctxt "model:ir.action,name:act_sale_opportunity_helpdesk_manager"
+msgid "Sale Opportunity Helpdesks"
+msgstr "Soporte de oportunidades ventas"
+
+msgctxt "model:ir.action,name:act_sale_opportunity_helpdesk_sale_form"
+msgid "Helpdesks"
+msgstr "Soporte"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_opportunity_helpdesk_domain_alls_sale_opportunity_helpdesk_all"
+msgid "All"
+msgstr "Todos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_opportunity_helpdesk_domain_alls_sale_opportunity_helpdesk_done"
+msgid "Done"
+msgstr "Realizados"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_opportunity_helpdesk_domain_alls_sale_opportunity_helpdesk_open"
+msgid "Open"
+msgstr "Abiertos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_opportunity_helpdesk_domain_alls_sale_opportunity_helpdesk_pending"
+msgid "Pending"
+msgstr "Pendientes"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_opportunity_helpdesk_domain_alls_sale_opportunity_helpdesk_unreads"
+msgid "Unreads"
+msgstr "No leidos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_opportunity_helpdesk_domain_sale_opportunity_helpdesk_all_my"
+msgid "All"
+msgstr "Todos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_opportunity_helpdesk_domain_sale_opportunity_helpdesk_done"
+msgid "Done"
+msgstr "Realizados"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_opportunity_helpdesk_domain_sale_opportunity_helpdesk_open"
+msgid "Open"
+msgstr "Abiertos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_opportunity_helpdesk_domain_sale_opportunity_helpdesk_pending"
+msgid "Pending"
+msgstr "Pendientes"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_opportunity_helpdesk_domain_sale_opportunity_helpdesk_unreads"
+msgid "Unreads"
+msgstr "No leidos"
+
+msgctxt "model:ir.ui.menu,name:menu_sale_all_helpdesk"
+msgid "All Helpdesks"
+msgstr "Todos los soportes"
+
+msgctxt "model:ir.ui.menu,name:menu_sale_opportunity_helpdesk"
+msgid "Helpdesks"
+msgstr "Soporte"
+
+msgctxt "model:res.group,name:group_sale_opportunity_helpdesk"
+msgid "Helpdesk Opportunity Sale"
+msgstr "Soporte de oportunidades venta"
+
+msgctxt "model:sale.opportunity.helpdesk,name:"
+msgid "Sale Opportunity - Helpdesk"
+msgstr "Oportunidad - Soporte"
+
+msgctxt "selection:helpdesk,kind:"
+msgid "Opportunity"
+msgstr "Oportunidad"
