@@ -150,7 +150,7 @@ copyright notices and license terms. -->
         </record>
         <record model="ir.action.keyword" id="act_open_sale_opportunity_helpdesk_sale_keyword1">
             <field name="keyword">form_relate</field>
-            <field name="model">sale.sale,-1</field>
+            <field name="model">sale.opportunity,-1</field>
             <field name="action" ref="act_sale_opportunity_helpdesk_sale_form"/>
         </record>
 
