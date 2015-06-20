@@ -11,8 +11,8 @@ __metaclass__ = PoolMeta
 
 class Helpdesk:
     __name__ = 'helpdesk'
-    opportunities = fields.Many2Many('sale.opportunity.helpdesk', 'helpdesk', 'opportunity',
-        'Opportunities', states={
+    opportunities = fields.Many2Many('sale.opportunity.helpdesk', 'helpdesk',
+        'opportunity', 'Opportunities', states={
             'readonly': Eval('state').in_(['cancel', 'done']),
             'invisible': ~Eval('kind').in_(['opportunity', 'generic']),
             },
@@ -30,7 +30,7 @@ class SaleOpportunityHelpdesk(ModelSQL):
     'Sale Opportunity - Helpdesk'
     __name__ = 'sale.opportunity.helpdesk'
     _table = 'sale_opportunity_helpdesk_rel'
-    opportunity = fields.Many2One('sale.opportunity', 'Opportunity', ondelete='CASCADE',
-        select=True, required=True)
+    opportunity = fields.Many2One('sale.opportunity', 'Opportunity',
+        ondelete='CASCADE', select=True, required=True)
     helpdesk = fields.Many2One('helpdesk', 'Helpdesk', ondelete='RESTRICT',
         select=True, required=True)
