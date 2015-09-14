@@ -148,6 +148,10 @@ msgctxt "model:ir.ui.menu,name:menu_sale_opportunity_helpdesk"
 msgid "Helpdesks"
 msgstr "Soporte"
 
+msgctxt "model:ir.ui.menu,name:menu_sale_opportunity_helpdesk_manager"
+msgid "Sale Opportunity Helpdesks"
+msgstr "Soporte de oportunidades ventas"
+
 msgctxt "model:res.group,name:group_sale_opportunity_helpdesk"
 msgid "Helpdesk Opportunity Sale"
 msgstr "Soporte de oportunidades venta"

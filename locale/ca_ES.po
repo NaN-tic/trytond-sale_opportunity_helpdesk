@@ -82,6 +82,10 @@ msgctxt "model:ir.action,name:act_sale_opportunity_helpdesk_form2"
 msgid "Sale Opportunity Helpdesks"
 msgstr "Suport de oportunitats vendes"
 
+msgctxt "model:ir.action,name:act_sale_opportunity_helpdesk_manager"
+msgid "Sale Opportunity Helpdesks"
+msgstr "Suport de oportunitats vendes"
+
 msgctxt "model:ir.action,name:act_sale_opportunity_helpdesk_sale_form"
 msgid "Helpdesks"
 msgstr "Suport"
