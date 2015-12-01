@@ -1,32 +1,18 @@
-#!/usr/bin/env python
 # This file is part of the sale_opportunity_helpdesk module for Tryton.
 # The COPYRIGHT file at the top level of this repository contains the full
 # copyright notices and license terms.
 import unittest
 import trytond.tests.test_tryton
-from trytond.tests.test_tryton import test_view, test_depends
+from trytond.tests.test_tryton import ModuleTestCase
 
 
-class SaleOppotunityHelpdeskTestCase(unittest.TestCase):
+class SaleOpportunityHelpdeskTestCase(ModuleTestCase):
     'Test Sale Opportunity Helpdesk module'
-
-    def setUp(self):
-        trytond.tests.test_tryton.install_module('sale_opportunity_helpdesk')
-
-    def test0005views(self):
-        'Test views'
-        test_view('sale_opportunity_helpdesk')
-
-    def test0006depends(self):
-        'Test depends'
-        test_depends()
+    module = 'sale_opportunity_helpdesk'
 
 
 def suite():
     suite = trytond.tests.test_tryton.suite()
     suite.addTests(unittest.TestLoader().loadTestsFromTestCase(
-        SaleOppotunityHelpdeskTestCase))
+        SaleOpportunityHelpdeskTestCase))
     return suite
-
-if __name__ == '__main__':
-    unittest.TextTestRunner(verbosity=2).run(suite())
