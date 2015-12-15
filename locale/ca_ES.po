@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -159,6 +159,10 @@ msgstr "Suport de oportunitats vendes"
 msgctxt "model:sale.opportunity.helpdesk,name:"
 msgid "Sale Opportunity - Helpdesk"
 msgstr "Oportunitat - Suport"
+
+msgctxt "selection:getmail.server,kind:"
+msgid "Opportunity"
+msgstr "Oportunitat"
 
 msgctxt "selection:helpdesk,kind:"
 msgid "Opportunity"
